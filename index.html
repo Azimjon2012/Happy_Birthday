@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<audio id="bgMusic" src="music.mp3" autoplay loop></audio>
 
+<script>
+  // Выставляем комфортную фоновую громкость (например, 30%)
+  document.getElementById("bgMusic").volume = 0.3;
+</script>
 <div class="bg-glow glow-1"></div>
 <div class="bg-glow glow-2"></div>
 
